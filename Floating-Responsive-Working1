@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML-CSS Base Code</title>
+<style type="text/css">
+
+    body{widt:700px; color: aliceblue;}
+    .main{width: 600px; height: 800px; background-color:darkcyan; margin-left:auto; margin-right:auto;}
+    .top{width: 300px; height: 300px; background-color:brown; float: left;}
+    .bottom{width: 300px; height: 300px; background-color:#3564d0; float: left;}
+    
+    @media screen and (max-width:400px){
+        .main{ background-color:#18f020; }
+    .top{display: block; width: 100%; background-color:#f01425; }
+    .bottom{ width: 100%; background-color:#04000d;}
+    }
+    
+
+</style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="top float-left"> Top</div>
+        <div class="bottom float-right">Bottom</div>
+    </div>
+    
+</body>
+</html>
